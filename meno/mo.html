@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="style.css" type="text/css">
+<title>منو</title>
+</head>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+	direction:rtl;
+	font-family:'mj_amina';
+	src:url('New%20folder/mj_amina.eot?#') format('eot'), /* IE6-8*/
+		url('New%20folder/mj_amina.woff') format('ttf')
+		url('New%20folder/mj_amina.ttf') format('truetype')	
+	}
+.meno{
+	background: #9C9292;
+	}	
+.meno li { 
+	display:inline-block;
+	padding-left:10px;
+	padding-right: 10px;
+	height:45px;
+	line-height:45px;
+	}	
+.meno li a{
+	text-decoration:none;
+	color: black;
+	}
+.meno li a:hover {
+	color:#ECEB4B;
+	}
+.meno li:hover ul { 
+display:block;
+position:absolute;
+}	
+.meno li ul{
+	display:none;
+	color: #000000;
+	}
+.meno li ul li{
+	display:block;}		
+</style>
+
+<body>
+<ul class="meno">
+	<li><a href="">صفحه اصلی</a></li>
+	<li><a href="">گالری عکس</a>
+     	<ul>
+        	<li><a href="">عکس های رستوران</a></li>
+  			<li><a href="">عکس های شما</a></li>   
+     	</ul>
+    </li>
+	<li><a href="">رزرواسیون</a></li>
+    <li><a href="">ارتباط با ما</a></li>
+   	<li><a href="">درباره ما</a></li>
+
+
+</ul>
+</body>
+</html>
