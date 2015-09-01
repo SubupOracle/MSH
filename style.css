@@ -40,7 +40,7 @@ html{
 	background-position:center;
 	background-size:cover;
 }
-.logo{
+/*.logo{
 	width:397px;
 	height:191px;
 	margin:0 auto;
@@ -50,7 +50,7 @@ html{
 	background-image:url(images/logo.png);
 	left:35%;
 	top:200px;
-}
+} */
 .meno{
 	display:block;
 	width:1200px;
