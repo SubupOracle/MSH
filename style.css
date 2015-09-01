@@ -1,3 +1,98 @@
+<<<<<<< HEAD
+/*
+Theme Name: MahanShandiz
+Theme URI: http://100oc.ir 
+Author: Mostafa Keshtanian - Mohammad Seyedian
+Author URI: http://100oc.ir
+*/
+body{
+	padding:0px;
+	margin:0px;
+	text-align:center;	
+}
+
+html{
+	margin-top:0px !important;
+}
+.panel-grid{
+	width:100%;
+	height:667px;
+	display:block;
+	background-color:#fff;
+	position:relative;
+	float:left;	
+	overflow:hidden;
+}
+.slider{
+	width:100%;
+	height:120vs;
+	display:block;
+	background-color:#666;
+	position:absolute;
+	float:left;	
+}
+.slider-item{	
+	width:100%;
+	height:667px;
+	display:block;
+	position:relative;
+	float:left;
+	background-image:url(images/hh.png);
+	background-position:center;
+	background-size:cover;
+}
+.logo{
+	width:397px;
+	height:191px;
+	margin:0 auto;
+	display:block;
+	position:absolute;
+	z-index:500;
+	background-image:url(images/logo.png);
+	left:35%;
+	top:200px;
+} 
+.meno{
+	display:block;
+	width:1200px;
+	height:44px;
+	position:relative;
+	z-index:505;
+	top:33px;
+	padding: 0;
+	margin: 0 auto;
+	direction:rtl;
+	font-family:tahoma;
+}
+.meno li {
+	color:#FFFFFF;
+	display:inline-block;
+	padding-left:20px;
+	padding-right: 20px;
+	height:45px;
+	line-height:45px;
+	position:relative;
+	float:right;
+	}	
+.meno li a{
+	text-decoration:none;
+	color: black;
+	color:#FFFFFF;
+	font-size:11px;
+	}
+.meno li a:hover {
+	color:#ECEB4B;
+	}
+.meno li:hover ul { 
+display:block;
+position:absolute;
+}	
+.meno li ul{
+	display:none;
+	color: #000000;
+	}
+.meno li ul li{
+=======
 /*
 Theme Name: MahanShandiz
 Theme URI: http://100oc.ir 
@@ -91,4 +186,5 @@ position:absolute;
 	color: #000000;
 	}
 .meno li ul li{
+>>>>>>> origin/master
 	display:block;}		
