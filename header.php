@@ -18,10 +18,27 @@
 	<div class="slider">
     	<div class="slider-item"></div>
     </div>
+    <ul class="meno">
+	<li><a href="">صفحه اصلی</a></li>
+	<li><a href="">گالری عکس</a>
+     	<ul>
+        	<li><a href="">عکس های رستوران</a></li>
+  			<li><a href="">عکس های شما</a></li>   
+     	</ul>
+    </li>
+	<li><a href="">رزرواسیون</a></li>
+    <li><a href="">ارتباط با ما</a></li>
+   	<li><a href="">درباره ما</a></li>
+
+
+</ul>
 </div>
 <script>
-	 $(window).load(function (){
-		$('.panel-grid').height($(window).height());	
+	 $( document ).ready(function (){
+		console.log($(window).height());
+		$('.panel-grid').height($(window).height());
+		$('.slider-item').height($(window).height());			
+			
 	});
 </script>
 <div id="wrapper" class="hfeed">
