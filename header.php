@@ -18,7 +18,7 @@
 	<div class="slider">
     	<div class="slider-item"></div>
     </div>
-    <ul class="meno">
+    <ul class="menu">
 	<li><a href="">صفحه اصلی</a></li>
 	<li><a href="">گالری عکس</a>
      	<ul>
